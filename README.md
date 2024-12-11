@@ -1,86 +1,129 @@
 # App de Notas
 
-Este proyecto es una aplicación de notas que permite a los usuarios crear, editar, eliminar y gestionar notas con funcionalidades adicionales como la subida de imágenes, autenticación segura mediante JWT, y un diseño atractivo utilizando Tailwind CSS.
+Este proyecto es una aplicación de notas que permite a los usuarios gestionar sus notas de manera eficiente. Entre sus funcionalidades principales se incluyen la creación, edición, eliminación de notas, subida de imágenes, autenticación segura mediante JWT, y un diseño moderno utilizando Tailwind CSS.
 
-## Tecnologías utilizadas
+## Tecnologías Utilizadas
 
-- **Frontend**:  
-  - React  
-  - TypeScript  
-  - Tailwind CSS  
+### **Frontend:**
 
-- **Backend**:  
-  - Node.js  
-  - Express  
-  - MongoDB  
+- React
+- TypeScript
+- Tailwind CSS
 
-- **Seguridad**:  
-  - JSON Web Tokens (JWT)
+### **Backend:**
 
-- **Otras características**:  
-  - Gestión y subida de imágenes.
+- Node.js
+- Express
+- MongoDB
 
-## Lo que aprendí en este proyecto
+### **Seguridad:**
 
-1. **Integración de tecnologías frontend y backend**:
-   - Creación de una API RESTful eficiente y segura.
-   - Conexión entre frontend y backend con Axios.
+- JSON Web Tokens (JWT)
 
-2. **Autenticación y seguridad**:
-   - Implementación de JWT para proteger las rutas del backend y gestionar sesiones de usuario.
+### **Otras Características:**
 
-3. **Gestión de datos**:
-   - Uso de MongoDB como base de datos no relacional para almacenar información estructurada.
+- Gestor de imágenes para la subida y manejo eficiente de archivos.
 
-4. **Estilo y diseño responsivo**:
-   - Utilización de Tailwind CSS para construir una interfaz de usuario moderna, limpia y totalmente responsiva.
+## Lo que Aprendí
 
-5. **Subida y manejo de archivos**:
-   - Implementación de funcionalidades para la subida de imágenes y su correcta gestión en el backend.
+1. **Integración Frontend y Backend:**
 
-6. **Flujo de desarrollo**:
-   - Configuración y gestión de un entorno de desarrollo eficiente para frontend y backend por separado.
+   - Diseño e implementación de una API RESTful eficiente y segura.
+   - Conexión entre frontend y backend utilizando Axios.
 
-## Requisitos previos
+2. **Autenticación y Seguridad:**
 
-- Node.js instalado (v16 o superior recomendado).  
-- MongoDB configurado y corriendo en tu máquina o acceso a un clúster remoto.  
-- Git instalado (opcional, para clonar el repositorio).  
+   - Uso de JWT para proteger rutas del backend y gestionar sesiones de usuario.
 
-## Cómo ejecutar el proyecto
+3. **Gestor de Datos:**
 
-1. **Clonar el repositorio**  
-   ```
-   git clone https://github.com//notes-front.git
-   ```
-   - Abre la carpeta **notes-back** e instala las dependencias con:
-     ```
-     npm i
-     ```
-   - Crea un archivo *.env* en **notes-back** y agrega las variables de entorno:
-     ```
-     VITE_API_URL=http://localhost:3000
-     ```
-   - Corre el proyecto con:
-     ```
-     npm run dev
-     ```
-2. **Configuración del backend**
-   - clona el repositotio
-     ```
-     https://github.com//notes-back.git
-     ```
-   - Abre la carpeta notes-back e instala las dependecias:   
-     ```
-     npm i
-     ```
+   - Implementación de MongoDB como base de datos no relacional para manejar información estructurada.
 
-   - Inicia el servidor:
-     ```
-     npm run dev 
-     ```
-     ```bash
-     npm run dev
-     ```
+4. **Estilo y Diseño Responsivo:**
 
-  
+   - Construcción de una interfaz de usuario moderna y adaptativa con Tailwind CSS.
+
+5. **Subida de Archivos:**
+
+   - Desarrollo de funcionalidades para subir y gestionar imágenes desde el frontend al backend.
+
+6. **Flujo de Desarrollo:**
+
+   - Configuración de un entorno de desarrollo eficiente para manejar frontend y backend de manera separada.
+
+## Requisitos Previos
+
+- **Node.js**: Versión 16 o superior recomendada.
+- **MongoDB**: Configurado localmente o acceso a un clúster remoto.
+- **Git**: Opcional, para clonar el repositorio.
+
+## Cómo Ejecutar el Proyecto
+
+### 1. Clonar los Repositorios
+
+#### Frontend:
+
+```bash
+git clone https://github.com/NoeliaGAP/Fast-Notes-Front.git
+```
+
+- Accede a la carpeta del proyecto:
+  ```bash
+  cd notes-front
+  ```
+- Instala las dependencias:
+  ```bash
+  npm install
+  ```
+- Crea un archivo `.env` con la siguiente variable:
+  ```env
+  VITE_API_URL=http://localhost:3000
+  ```
+- Inicia el servidor de desarrollo:
+  ```bash
+  npm run dev
+  ```
+
+#### Backend:
+
+```bash
+git clone https://github.com/usuario/notes-back.git
+```
+
+- Accede a la carpeta del proyecto:
+  ```bash
+  cd notes-back
+  ```
+- Instala las dependencias:
+  ```bash
+  npm install
+  ```
+- Configura el archivo `.env` con las variables necesarias, por ejemplo:
+  ```env
+  MONGO_URI=<tu_uri_de_mongodb>
+  JWT_SECRET=<tu_secreto_jwt>
+  ```
+- Inicia el servidor de desarrollo:
+  ```bash
+  npm run dev
+  ```
+
+### 2. Acceder a la Aplicación
+
+- Abre el navegador y accede a `(https://fasty-notes.netlify.app/auth/login)` para interactuar con la aplicación.
+
+## Funcionalidades Destacadas
+
+- **Gestor de Notas:**
+  - Crear, editar y eliminar notas de manera eficiente.
+- **Autenticación Segura:**
+  - Registro e inicio de sesión protegidos mediante JWT.
+- **Subida de Imágenes:**
+  - Integración con backend para almacenar y mostrar imágenes.
+- **Diseño Responsivo:**
+  - Adaptado para funcionar en diferentes dispositivos y resoluciones.
+
+## Contacto
+
+Si tienes alguna duda o sugerencia, no dudes en contactarme a través de [mi LinkedIn](https://www.linkedin.com/in/noelia-gap/) o visita el repositorio para más información.
+
