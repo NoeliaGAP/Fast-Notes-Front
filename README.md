@@ -2,15 +2,14 @@
 
 <div style="display: flex; align-items: center;">
   <p style="margin-right: 10px;">
-    Este proyecto es una aplicación de notas que permite a los usuarios crear, editar, eliminar y gestionar notas con funcionalidades adicionales como la subida de imágenes, autenticación segura mediante JWT, y un diseño atractivo utilizando Tailwind CSS.
+    Este proyecto es una aplicación de notas que permite a los usuarios gestionar sus notas de manera eficiente. Entre sus funcionalidades principales se incluyen la creación, edición, eliminación de notas, subida de imágenes, autenticación segura mediante JWT, y un diseño moderno utilizando Tailwind CSS.
   </p>
   <img src="src/assets/imgs/post-it2.gif" alt="PostIt Gif" width="205"/>
 </div>
 
+## Tecnologías Utilizadas
 
-## Tecnologías utilizadas
-
-- **Frontend**:
+### **Frontend:**
 
 <div>
 <img src="src/assets/imgs/reactjs.png" alt="React.JS Icon" width="60" style="margin: 0 7.5px"/>
@@ -20,7 +19,7 @@
 <img src="src/assets/imgs/tailwind.png" alt="Tailwind Icon" width="60" style="margin: 0 7.5px"/>
 </div>
 
-- **Backend**:  
+### **Backend:**
 
 <div>
 <img src="src/assets/imgs/nodejs.png" alt="Node.JS Icon" width="60" style="margin: 0 7.5px"/>
@@ -30,68 +29,114 @@
 <img src="src/assets/imgs/mongodb.svg" alt="MongoDB Icon" width="60" style="margin: 0 7.5px"/>
 </div>
 
-- **Seguridad**:  
-  - JSON Web Tokens (JWT)
+### **Seguridad:**
 
-- **Otras características**:  
-  - Gestión y subida de imágenes.
+- JSON Web Tokens (JWT)
 
-## Lo que aprendí en este proyecto
+### **Otras Características:**
 
-1. **Integración de tecnologías frontend y backend**:
-   - Creación de una API RESTful eficiente y segura.
-   - Conexión entre frontend y backend con Axios.
+- Gestor de imágenes para la subida y manejo eficiente de archivos.
 
-2. **Autenticación y seguridad**:
-   - Implementación de JWT para proteger las rutas del backend y gestionar sesiones de usuario.
+## Lo que Aprendí
 
-3. **Gestión de datos**:
-   - Uso de MongoDB como base de datos no relacional para almacenar información estructurada.
+1. **Integración Frontend y Backend:**
 
-4. **Estilo y diseño responsivo**:
-   - Utilización de Tailwind CSS para construir una interfaz de usuario moderna, limpia y totalmente responsiva.
+   - Diseño e implementación de una API RESTful eficiente y segura.
+   - Conexión entre frontend y backend utilizando Axios.
 
-5. **Subida y manejo de archivos**:
-   - Implementación de funcionalidades para la subida de imágenes y su correcta gestión en el backend.
+2. **Autenticación y Seguridad:**
 
-6. **Flujo de desarrollo**:
-   - Configuración y gestión de un entorno de desarrollo eficiente para frontend y backend por separado.
+   - Uso de JWT para proteger rutas del backend y gestionar sesiones de usuario.
 
-## Requisitos previos
+3. **Gestor de Datos:**
 
-- Node.js instalado (v16 o superior recomendado).  
-- MongoDB configurado y corriendo en tu máquina o acceso a un clúster remoto.  
-- Git instalado (opcional, para clonar el repositorio).  
+   - Implementación de MongoDB como base de datos no relacional para manejar información estructurada.
 
-## Cómo ejecutar el proyecto
+4. **Estilo y Diseño Responsivo:**
 
-1. **Clonar el repositorio**  
-   ```
-   git clone https://github.com/NoeliaGAP/Fast-Notes-Front
-   ```
-   - Abre la carpeta **notes-back** e instala las dependencias con:
-     ```
-     npm i
-     ```
-   - Crea un archivo *.env* en **notes-back** y agrega las variables de entorno:
-     ```
-     VITE_API_URL=http://localhost:3000
-     ```
-   - Corre el proyecto con:
-     ```
-     npm run dev
-     ```
-2. **Configuración del backend**
-   - clona el repositotio
-     ```
-      https://github.com/NoeliaGAP/Fast-Notes-Back
-     ```
-   - Abre la carpeta notes-back e instala las dependecias:   
-     ```
-     npm i
-     ```
+   - Construcción de una interfaz de usuario moderna y adaptativa con Tailwind CSS.
 
-   - Inicia el servidor:
-     ```bash
-     npm run dev
-     ```
+5. **Subida de Archivos:**
+
+   - Desarrollo de funcionalidades para subir y gestionar imágenes desde el frontend al backend.
+
+6. **Flujo de Desarrollo:**
+
+   - Configuración de un entorno de desarrollo eficiente para manejar frontend y backend de manera separada.
+
+## Requisitos Previos
+
+- **Node.js**: Versión 16 o superior recomendada.
+- **MongoDB**: Configurado localmente o acceso a un clúster remoto.
+- **Git**: Opcional, para clonar el repositorio.
+
+## Cómo Ejecutar el Proyecto
+
+### 1. Clonar los Repositorios
+
+#### Frontend:
+
+```bash
+git clone https://github.com/NoeliaGAP/Fast-Notes-Front.git
+```
+
+- Accede a la carpeta del proyecto:
+  ```bash
+  cd notes-front
+  ```
+- Instala las dependencias:
+  ```bash
+  npm install
+  ```
+- Crea un archivo `.env` con la siguiente variable:
+  ```env
+  VITE_API_URL=http://localhost:3000
+  ```
+- Inicia el servidor de desarrollo:
+  ```bash
+  npm run dev
+  ```
+
+#### Backend:
+
+```bash
+git clone https://github.com/NoeliaGAP/Fast-Notes-Back
+```
+
+- Accede a la carpeta del proyecto:
+  ```bash
+  cd notes-back
+  ```
+- Instala las dependencias:
+  ```bash
+  npm install
+  ```
+- Configura el archivo `.env` con las variables necesarias, por ejemplo:
+  ```env
+  MONGO_URI=<tu_uri_de_mongodb>
+  JWT_SECRET=<tu_secreto_jwt>
+  ```
+- Inicia el servidor de desarrollo:
+  ```bash
+  npm run dev
+  ```
+
+### 2. Acceder a la Aplicación
+
+- Abre el navegador y accede a `(https://fasty-notes.netlify.app)` para interactuar con la aplicación.
+
+## Funcionalidades Destacadas
+
+- **Gestor de Notas:**
+  - Crear, editar y eliminar notas de manera eficiente.
+- **Autenticación Segura:**
+  - Registro e inicio de sesión protegidos mediante JWT.
+- **Subida de Imágenes:**
+  - Integración con backend para almacenar y mostrar imágenes.
+- **Diseño Responsivo:**
+  - Adaptado para funcionar en diferentes dispositivos y resoluciones.
+
+## Contacto
+
+Si tienes alguna duda o sugerencia, no dudes en contactarme a través de [mi LinkedIn](https://www.linkedin.com/in/noelia-gap/) o visita el repositorio para más información.
+
