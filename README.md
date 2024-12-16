@@ -1,18 +1,34 @@
-# App de Notas
+<img src="src/assets/imgs/Fasty Notes.png" alt="Cover Fasty Notes"/>
 
-Este proyecto es una aplicación de notas que permite a los usuarios crear, editar, eliminar y gestionar notas con funcionalidades adicionales como la subida de imágenes, autenticación segura mediante JWT, y un diseño atractivo utilizando Tailwind CSS.
+<div style="display: flex; align-items: center;">
+  <p style="margin-right: 10px;">
+    Este proyecto es una aplicación de notas que permite a los usuarios crear, editar, eliminar y gestionar notas con funcionalidades adicionales como la subida de imágenes, autenticación segura mediante JWT, y un diseño atractivo utilizando Tailwind CSS.
+  </p>
+  <img src="src/assets/imgs/post-it2.gif" alt="PostIt Gif" width="205"/>
+</div>
+
 
 ## Tecnologías utilizadas
 
-- **Frontend**:  
-  - React  
-  - TypeScript  
-  - Tailwind CSS  
+- **Frontend**:
+
+<div>
+<img src="src/assets/imgs/reactjs.png" alt="React.JS Icon" width="60" style="margin: 0 7.5px"/>
+  &nbsp;
+<img src="src/assets/imgs/typescript.png" alt="Typescript Icon" width="60" style="margin: 0 7.5px"/>
+  &nbsp;
+<img src="src/assets/imgs/tailwind.png" alt="Tailwind Icon" width="60" style="margin: 0 7.5px"/>
+</div>
 
 - **Backend**:  
-  - Node.js  
-  - Express  
-  - MongoDB  
+
+<div>
+<img src="src/assets/imgs/nodejs.png" alt="Node.JS Icon" width="60" style="margin: 0 7.5px"/>
+  &nbsp;
+<img src="src/assets/imgs/express-js.svg" alt="Express.JS Icon" width="60" style="margin: 0 7.5px"/>
+  &nbsp;
+<img src="src/assets/imgs/mongodb.svg" alt="MongoDB Icon" width="60" style="margin: 0 7.5px"/>
+</div>
 
 - **Seguridad**:  
   - JSON Web Tokens (JWT)
@@ -51,7 +67,7 @@ Este proyecto es una aplicación de notas que permite a los usuarios crear, edit
 
 1. **Clonar el repositorio**  
    ```
-   git clone https://github.com//notes-front.git
+   git clone https://github.com/NoeliaGAP/Fast-Notes-Front
    ```
    - Abre la carpeta **notes-back** e instala las dependencias con:
      ```
@@ -68,7 +84,7 @@ Este proyecto es una aplicación de notas que permite a los usuarios crear, edit
 2. **Configuración del backend**
    - clona el repositotio
      ```
-     https://github.com//notes-back.git
+      https://github.com/NoeliaGAP/Fast-Notes-Back
      ```
    - Abre la carpeta notes-back e instala las dependecias:   
      ```
@@ -76,11 +92,6 @@ Este proyecto es una aplicación de notas que permite a los usuarios crear, edit
      ```
 
    - Inicia el servidor:
-     ```
-     npm run dev 
-     ```
      ```bash
      npm run dev
      ```
-
-  
