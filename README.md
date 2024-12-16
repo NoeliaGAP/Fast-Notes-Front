@@ -7,6 +7,14 @@
   <img src="src/assets/imgs/post-it2.gif" alt="PostIt Gif" width="205"/>
 </div>
 
+<div>
+  <p style="float: left; margin-right: 10px;">
+    Este proyecto es una aplicación de notas que permite a los usuarios crear, editar, eliminar y gestionar notas con funcionalidades adicionales como la subida de imágenes, autenticación segura mediante JWT, y un diseño atractivo utilizando Tailwind CSS.
+  </p>
+  <img src="src/assets/imgs/post-it2.gif" alt="PostIt Gif" width="150" style="float: left;"/>
+</div>
+<div style="clear: both;"></div>
+
 ## Tecnologías Utilizadas
 
 ### **Frontend:**
