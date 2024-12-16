@@ -1,16 +1,11 @@
 <img src="src/assets/imgs/Fasty Notes.png" alt="Cover Fasty Notes"/>
 
 <div style="display: flex; align-items: center;">
-  <p style="margin-right: 10px;">
+  <p style="margin-right: 10 px;">
     Este proyecto es una aplicación de notas que permite a los usuarios gestionar sus notas de manera eficiente. Entre sus funcionalidades principales se incluyen la creación, edición, eliminación de notas, subida de imágenes, autenticación segura mediante JWT, y un diseño moderno utilizando Tailwind CSS.
   </p>
   <img src="src/assets/imgs/post-it2.gif" alt="PostIt Gif" width="205"/>
 </div>
-
-|                                                                                          |                            |
-|------------------------------------------------------------------------------------------|-----------------------------|
-| Este proyecto es una aplicación de notas que permite a los usuarios crear, editar, eliminar y gestionar notas con funcionalidades adicionales como la subida de imágenes, autenticación segura mediante JWT, y un diseño atractivo utilizando Tailwind CSS. | ![PostIt Gif](<img src="src/assets/imgs/post-it2.gif" alt="PostIt Gif" width="205"/>) |
-
 
 ## Tecnologías Utilizadas
 
