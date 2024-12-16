@@ -138,5 +138,5 @@ git clone https://github.com/NoeliaGAP/Fast-Notes-Back
 
 ## Contacto
 
-Si tienes alguna duda o sugerencia, no dudes en contactarme a través de [mi LinkedIn](https://www.linkedin.com/in/noelia-gap/) o visita el repositorio para más información.
+Si tienes alguna duda o sugerencia, no dudes en contactarme a través de mi [LinkedIn](https://www.linkedin.com/in/noelia-gap/) o visita el repositorio para más información.
 
